@@ -1,0 +1,109 @@
+.all-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.1rem;
+}
+
+.input-name-email {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  
+  gap: 0.5rem;
+
+  width: 100%;
+}
+
+.input-name, .email-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+}
+
+.password-input {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+}
+
+input {
+  border: 1px solid #1f5ce077;
+  border-radius: 0.3rem;
+
+  padding: 1rem;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #292929;
+
+}
+
+.accept-option {
+  margin: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 0.9rem;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.7rem;
+
+  border-radius: 0.4rem;
+
+  width: 100%;
+  border: 0;
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  color: #ffff;
+  background-color: #1f5ce0;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: all 0.1s  ;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.input-error {
+  outline: 2px solid rgb(243, 29, 29);
+}
+
+.error-message {
+  color: rgb(255, 72, 72);
+  font-size: 0.75rem;
+  margin-top: 8px;
+}
+
+@media screen and (max-width: 600px) {
+  .input-name-email {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+
+  }
+
+  .accept-option {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  label {
+    font-weight: 600;
+  }
+
+}

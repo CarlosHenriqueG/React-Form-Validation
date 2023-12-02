@@ -1,0 +1,25 @@
+.other-signup p {
+  margin: 1rem;
+  text-align: center;
+
+  font-size: 1.1rem;
+
+  border-bottom: 1px solid #acacac;
+  
+}
+
+.others-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  .other-signup p {
+    font-size: 1.3rem;
+
+  }
+
+}
