@@ -1,8 +1,8 @@
 # React Form Validation
 
- - Project for validating registration <strong>form</strong> information fields.
+- Projeto de validação de campos de informações do <strong>formulário</strong> cadastral.
 
-## Project images
+## Imagens do projeto
 
 <a href="https://react-form-six-mocha.vercel.app/" target="_blink">
 <img src="https://i.ibb.co/TmT3Cks/Captura-de-tela-2023-12-01-220534.png" width="500px">
@@ -12,7 +12,7 @@
  <img src="https://i.ibb.co/X7vxYQb/Captura-de-tela-2023-12-01-220517.png" width="500px">
 </a>
 
-## 💻 Tech Used
+## 💻 Tecnologias usadas:
 
 **React Js** -
 **React Hook Form** -
